@@ -19,14 +19,11 @@ function clearDisplay(){
 
 // Funksjon for å bytte bakgrunnsfarger
 
-function backgroundChange1(){
-    document.body.style.backgroundColor= "yellow";
+const background = document.getElementsByClassName('backgroundColors');
+let chosenColor = '';
+
+function backgroundChange(color){
+    chosenColor=color
+    document.body.style.backgroundColor= chosenColor;
 }
 
-function backgroundChange2(){
-    document.body.style.backgroundColor= "pink";
-}
-
-function backgroundChange3(){
-    document.body.style.backgroundColor= "gray";
-}
