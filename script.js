@@ -1,3 +1,5 @@
+// Funksjon for å telle eller reset
+
 let displayNum = "";
 
 function addNum(){
@@ -13,4 +15,20 @@ function subNum(){
 function clearDisplay(){
     displayNum = "0";
     document.getElementById("display").innerHTML=displayNum;
+}
+
+// Funksjon for å bytte bakgrunnsfarger
+
+
+
+function backgroundChange1(){
+    document.body.style.backgroundColor= "yellow";
+}
+
+function backgroundChange2(){
+    document.body.style.backgroundColor= "pink";
+}
+
+function backgroundChange3(){
+    document.body.style.backgroundColor= "gray";
 }

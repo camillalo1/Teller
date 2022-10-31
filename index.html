@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title id="header">Visuell Teller</title>
+    <title>Visuell Teller</title>
 </head>
 
 <body>
-    <h1>Visuell Teller</h1>
+    <h1 title id="header">Visuell Teller</h1>
     <div id="display" class="display"></div>
-    <div class="buttons">
-        <button id="sub" onclick="subNum()"> - </button>
-        <button id="add" onclick="addNum()"> + </button>
-        <button id="reset" onclick="clearDisplay()"> Reset </button>
-    </div>
+        <div id="buttons" class="changeNum">
+            <button id="sub" onclick="subNum()"> - </button>
+            <button id="add" onclick="addNum()"> + </button>
+            <button id="reset" onclick="clearDisplay()"> Reset </button>
+        </div>
+        <div class="backgroundColors">
+            <button id="yellow" onclick="backgroundChange1('#ffff00')">Yellow</button>
+            <button id="pink" onclick="backgroundChange2('#ffc0cb')">Pink</button>
+            <button id="gray" onclick="backgroundChange3('#808080')">Gray</button>
+        </div>
 </body>
 </html>
