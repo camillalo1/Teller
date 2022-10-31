@@ -10,17 +10,23 @@
 </head>
 
 <body>
-    <h1 title id="header">Visuell Teller</h1>
-    <div id="display" class="display"></div>
-        <div id="buttons" class="changeNum">
-            <button id="sub" onclick="subNum()"> - </button>
-            <button id="add" onclick="addNum()"> + </button>
-            <button id="reset" onclick="clearDisplay()"> Reset </button>
+    <div class="content">
+            <div onclick="contentColor1()"></div>
+            <div onclick="contentColor2()"></div>
+            <div onclick="contentColor3()"></div>
+<h1 title id="header">Visuell Teller</h1>
+        <div id="display" class="display">
         </div>
+            <div id="buttons" class="changeNum">
+                <button id="sub" onclick="subNum()"> - </button>
+                <button id="add" onclick="addNum()"> + </button>
+                <button id="reset" onclick="clearDisplay()"> Reset </button>
+            </div>
         <div class="backgroundColors">
-            <button id="yellow" onclick="backgroundChange1('#ffff00')">Yellow</button>
-            <button id="pink" onclick="backgroundChange2('#ffc0cb')">Pink</button>
-            <button id="gray" onclick="backgroundChange3('#808080')">Gray</button>
+            <div id="yellow" onclick="backgroundChange1('#ffff00')">Yellow</div>
+            <div id="pink" onclick="backgroundChange2('#ffc0cb')">Pink</div>
+            <div id="gray" onclick="backgroundChange3('#808080')">Gray</div>
         </div>
+    </div>
 </body>
 </html>

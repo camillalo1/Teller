@@ -1,4 +1,4 @@
-// Funksjon for å telle eller reset
+// Funksjon for å telle eller resette
 
 let displayNum = "";
 
@@ -18,8 +18,6 @@ function clearDisplay(){
 }
 
 // Funksjon for å bytte bakgrunnsfarger
-
-
 
 function backgroundChange1(){
     document.body.style.backgroundColor= "yellow";
