@@ -5,11 +5,11 @@ html{
 
 body{
     background-color: yellow;
-    /* height: fit-content;
-    width: fit-content; */
+    height: fit-content;
+    width: fit-content;
     text-align: center;
-    /* justify-content: center; */
-    /* margin: auto; */
+    justify-content: center;
+    margin: auto;
     padding: 11%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-variant: small-caps;
@@ -21,7 +21,7 @@ body{
 .display{
     height: 56px;
     width: 50px;
-    margin-left: 44%;
+    margin-left: 40%;
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: xxx-large;
@@ -44,4 +44,19 @@ body{
     margin-top: 20px;
     padding: 20%;
     opacity: 20%;
+}
+
+div.yellow{
+    margin: 5px;
+    border: 2px solid rgb(64, 63, 63);
+}
+
+div.pink{
+    margin: 5px;
+    border: 2px solid rgb(64, 63, 63);
+}
+
+div.gray{
+    margin: 5px;
+    border: 2px solid rgb(64, 63, 63);
 }
