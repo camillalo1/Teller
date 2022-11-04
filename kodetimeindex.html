@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <input id="inputfield" type="text" onsubmit="handlesubmit()"></input>    
+    </div>
+
+    <script>
+       
+       let inputText;
+        
+       function handleSubmit(){
+            inputText = document.getElementById('inputField').value;
+            let sarcasmResult = detectSarcasm();
+            if(sarcasmResult == true){
+                document.getElementById('app').innerHTML += /*HTML*/`
+                <div>sarcasm detected</div>
+                `
+            } 
+            else {
+                document.getElementById('app').innerHTML += /*HTML*/`
+                <div>no sarcasm detected</div>
+                `
+            }
+
+        function detectSarcasm(){
+            let sarcasmResult = inputText.includes('...');
+            return sarcasmResult;
+        }
+    </script>
+</body>
+</html>

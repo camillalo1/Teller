@@ -20,10 +20,12 @@ function clearDisplay(){
 // Funksjon for å bytte bakgrunnsfarger
 
 const background = document.getElementsByClassName('backgroundColors');
-let chosenColor = '';
+var chosenColor = '';
 
-function backgroundChange(color){
+function backgroundChange(color, markChosen){
     chosenColor=color
     document.body.style.backgroundColor= chosenColor;
+    markChosen.innerHTML.style.border= "2px solid gray";
 }
+
 

@@ -14,6 +14,7 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-variant: small-caps;
     color: black;
+    user-select: none;
     /* outline-style: double;
     outline-color: rgb(12, 12, 12);   */
 }
@@ -44,6 +45,7 @@ body{
     margin-top: 20px;
     padding: 20%;
     opacity: 20%;
+    cursor: pointer;
 }
 
 div.yellow{
@@ -59,4 +61,8 @@ div.pink{
 div.gray{
     margin: 5px;
     border: 2px solid rgb(64, 63, 63);
+}
+
+.color{
+
 }
